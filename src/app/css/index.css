@@ -1,0 +1,107 @@
+body {
+  background: #eee;
+  margin: 20px;
+  font-family: tahoma;
+}
+
+h3 {
+  color: #39739d;
+}
+
+#container{
+  width: 70%;
+  margin: 0 auto;
+  background: #fff;
+  border-top: 3px solid #7f4cc1;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
+  color: #333;
+  height: 500px;
+}
+
+#container ul li{
+  color: #777;
+  border: 1px solid silver;
+  margin-right: 50px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#container ul{
+  list-style-type: none;
+  padding: 0;
+  padding: 20px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 35%;
+  margin-top: 30px;
+}
+
+.details, .mobile-details {
+  width: 35%;
+  position: relative;
+  float: right;
+  margin-top: 15px;
+  color: #777;
+  font-size: 18px;
+  text-transform: capitalize;
+  right: 20%;
+}
+
+.detailsdata {
+  display: block;
+  padding: 10px;
+}
+
+#container ul li.active:hover  {
+  background-color: #5fba7d;
+  color: #ffffff;
+}
+
+.menuitem, .details {
+  display: block;
+}
+.mobile-menuitem {
+    position: relative;
+    left: 15%;
+    padding: 30px !important;
+    width: 60% !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    cursor: pointer;
+}
+.mobile-details {
+  right: 17%;
+  font-size: 20px;
+  font-weight: bold;
+  width: 60%;
+}
+.backbutton {
+  text-decoration: underline;
+  font-size: 26px;
+  position: relative;
+  left: -20%;
+}
+.page-heading {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  border: 1px solid silver;
+  padding: 30px;
+  background: #fafafb;
+  border-bottom: 1px solid #c8ccd0;
+  border-right: 1px solid #c8ccd0;
+  border-top: 1px solid #d6d9dc;
+  border-left: 1px solid #d6d9dc;
+  box-shadow: 0 1px 3px #d6d9dc;
+  border-radius: 5px;
+  color: #777777;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
