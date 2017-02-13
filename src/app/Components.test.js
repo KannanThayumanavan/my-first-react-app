@@ -52,11 +52,9 @@ describe('When user clicked on menu item:', () => {
   it('should be clicked', () => {
     const wrapper = shallow(<div><ul class="menuitem"><li class="active">lambeosaurus</li></ul></div>);
     wrapper.simulate('click');
-  });
-  it('heading should change', () => {
-    const wrapper = shallow(<h3 class="headings">lambeosaurus</h3>);
-    expect(wrapper.text()).to.equal('lambeosaurus');
-  });
+    const wrapper1 = shallow(<h3 class="headings">lambeosaurus</h3>);
+    expect(wrapper1.text()).to.equal('lambeosaurus');
+  }); 
   it('details component should get updated', () => {
     const wrapper = shallow(<span class="detailsdata">appeared : -76000000</span>);
     expect(wrapper.text()).to.equal('appeared : -76000000');
