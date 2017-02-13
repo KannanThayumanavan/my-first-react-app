@@ -1,4 +1,4 @@
-# FirstReactApp
+# My First React App
 
 Simple React.js app with Unit Testing
 
